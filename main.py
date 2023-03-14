@@ -1,1 +1,1 @@
-print('Hello World') # template
+print('Hello World') # template extended
