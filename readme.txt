@@ -1,0 +1,2 @@
+Your token to telegram API:
+6145111616:AAEzy396VFpmu4g7x6NyZQEk88azsH7v80g
