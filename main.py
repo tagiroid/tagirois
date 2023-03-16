@@ -1,1 +1,1 @@
-print('Hello World') # template extended
+print(django.get_version())
