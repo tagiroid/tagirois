@@ -8,7 +8,7 @@ dp = Dispatcher(bot)
 @dp.message_handler(commands=['start'])  # Явно указываем в декораторе, на какую команду реагируем.
 async def send_welcome(message: types.Message):
     #  Так как код работает асинхронно, то обязательно пишем await.
-    await message.reply("Привет!\nЯ Эхо-бот от tagiroid!\nОтправь мне любое сообщение, а я тебе обязательно отвечу.")
+    await message.reply("Привет!\nЯ tagiroid_bot!\nОтправь мне любое аудиосообщение, я перевeду его в текст")
 
 
 @dp.message_handler()   # Создаём новое событие, которое запускается в ответ на любой текст, введённый пользователем.
