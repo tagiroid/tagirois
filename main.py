@@ -12,7 +12,7 @@ async def send_welcome(message: types.Message):
 
 
 @dp.message_handler()   # Создаём новое событие, которое запускается в ответ на любой текст, введённый пользователем.
-async def echo(message: types.Message):  # Создаём функцию с простой задачей — отправить обратно тот же текст,
+async def echo(message: types.Message):  #  Создаём функцию с простой задачей — отправить обратно тот же текст,
     # что ввёл пользователь .
     await message.answer(message.text)
 
