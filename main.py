@@ -12,6 +12,7 @@ async def send_welcome(message: types.Message):
     await message.reply("Привет!\nЯ tagiroid_bot!\nОтправь мне любое аудиосообщение, я перевeду его в текст")
 
 
+
 @dp.message_handler()   # Создаём новое событие, которое запускается в ответ на любой текст, введённый пользователем.
 async def echo(message: types.Message):  # Создаём функцию с простой задачей — отправить обратно тот же текст
     await message.answer(message.text)
